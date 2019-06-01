@@ -41,6 +41,11 @@ sensitive to the threshold of NMS. The ideal solution for crowds under their pip
 with greedy NMS is to set a high threshold to preserve highly overlapped objects and
 predict very compact detection boxes for all instances to reduce false positives.
 
+## To execute
+
+Run 
+
+### python run.py -i sample_images/p2.jpg
 
 
 
