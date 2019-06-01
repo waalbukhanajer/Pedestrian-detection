@@ -26,7 +26,7 @@ args = vars(parser.parse_args())
 
 
 
-clf = joblib.load("person_final.pkl")
+clf = joblib.load("pedestrian.pkl")
 
 
 orig = cv2.imread(args["image"])
@@ -100,4 +100,10 @@ for (a, b, conf, c, d) in nms_rects:
     cv2.rectangle(img, (a, b), (a+c, b+d), (0, 255, 0), 2)
 
 cv2.imshow("After NMS", img)
+
 cv2.waitKey(0)
+
+# save output
+cv2.imwrite("../output.jpg", img)
+
+
