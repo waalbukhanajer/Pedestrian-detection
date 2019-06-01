@@ -43,9 +43,7 @@ predict very compact detection boxes for all instances to reduce false positives
 
 ## To execute
 
-Run 
-
-### python run.py -i sample_images/p2.jpg
+python run.py -i sample_images/p2.jpg
 
 
 
