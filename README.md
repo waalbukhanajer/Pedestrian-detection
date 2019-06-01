@@ -26,7 +26,7 @@ To better understand please see the corresponding medium blog post [here](https:
 
 ## Data
 
-I downloaded the images from [here](https://unsplash.com/search/photos/walking).
+I downloaded the images from [here](https://unsplash.com/search/photos/pedestrians).
 Then I compressed the image to 300 by 200 size and used these images as test images
 for this project.
 
