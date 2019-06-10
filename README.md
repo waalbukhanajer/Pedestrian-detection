@@ -1,10 +1,6 @@
 # Pedestrian-detection
 Pedestrian detection using Non Maximum Suppression.
 
-
-
-
-
 Pedestrian detection is still an unsolved problem in computer science. While
 many object detection algorithms like YOLO, SSD, RCNN, Fast R-CNN and Faster
 R-CNN have been researched a lot to great success but still pedestrian detection
