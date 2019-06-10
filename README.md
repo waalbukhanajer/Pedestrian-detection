@@ -1,7 +1,8 @@
 # Pedestrian-detection
 Pedestrian detection using Non Maximum Suppression.
 
-![](output.jpg)
+
+
 
 
 Pedestrian detection is still an unsolved problem in computer science. While
@@ -46,6 +47,10 @@ predict very compact detection boxes for all instances to reduce false positives
 ## To execute
 
 python run.py -i sample_images/p2.jpg
+
+## Results
+
+![](output.jpg)
 
 
 
