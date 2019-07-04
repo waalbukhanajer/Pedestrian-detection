@@ -50,7 +50,16 @@ predict very compact detection boxes for all instances to reduce false positives
 
 ## Citing
 
-If you find this repository useful, please consider citing it using a link to the repo :)
+```
+@misc{Abhinav:2019,
+  Author = {Abhinav Sagar},
+  Title = {Pedestrian detection using Non Maximum Suppression},
+  Year = {2019},
+  Publisher = {GitHub},
+  Journal = {GitHub repository},
+  Howpublished = {\url{https://github.com/abhinavsagar/Pedestrian-detection}}
+}
+```
 
 ## Would you like to support me?
 
