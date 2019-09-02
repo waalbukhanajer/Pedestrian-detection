@@ -1,16 +1,7 @@
 # Pedestrian-detection
 Pedestrian detection using Non Maximum Suppression.
 
-Pedestrian detection is still an unsolved problem in computer science. While
-many object detection algorithms like YOLO, SSD, RCNN, Fast R-CNN and Faster
-R-CNN have been researched a lot to great success but still pedestrian detection
-in crowded scenes remains an open challenge. It might look strange that there 
-are lot of ongoing research in fields like semantic segmentation and instance 
-segmentation but we are paying less attention to some of the topics like this. 
-In this post, I will go through an efficient and scalable algorithm known as Non
-Maximum Suppression for solving pedestrian detection in crowded scenes.
-
-To better understand please see the corresponding medium blog post [Pedestrian detection using Non Maximum Suppression algorithm](https://medium.com/@abhinav.sagar2016/pedestrian-detection-using-non-maximum-suppression-b55b89cefc6).
+Check out the corresponding medium blog post [https://towardsdatascience.com/pedestrian-detection-using-non-maximum-suppression-b55b89cefc6](https://towardsdatascience.com/pedestrian-detection-using-non-maximum-suppression-b55b89cefc6).
 
 ## Environment and tools
 
