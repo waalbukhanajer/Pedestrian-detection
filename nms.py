@@ -12,7 +12,7 @@ def overlapping_area(detection_1, detection_2):
     x_overlap = max(0, min(x1_br, x2_br)-max(x1_tl, x2_tl))
     y_overlap = max(0, min(y1_br, y2_br)-max(y1_tl, y2_tl))
     overlap_area = x_overlap * y_overlap
-    area_1 = detection_1[3] * detection_2[4]
+    area_1 = detection_1[3] * detection_1[4]
     area_2 = detection_2[3] * detection_2[4]
     total_area = area_1 + area_2 - overlap_area
     return overlap_area / float(total_area)
